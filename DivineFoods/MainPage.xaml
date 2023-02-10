@@ -1,7 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DivineFoods.MainPage">
+             x:Class="DivineFoods.MainPage"
+             Shell.BackgroundColor="Beige">
+
+    <Shell.TitleView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+            <Image Grid.Row="0"
+                   Grid.Column="0"
+                   Source="home.svg"
+                   Aspect="AspectFill"
+                   HeightRequest="20"
+                   WidthRequest="20"/>
+
+            <Label Grid.Row="0"
+                   Grid.Column="1"
+                   Text="Home"
+                   FontAttributes="Bold"
+                   FontSize="16"/>
+
+            
+                   
+
+            </Grid>
+        </Shell.TitleView>
 
     <ScrollView>
         <VerticalStackLayout

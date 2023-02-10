@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{BF4F1FAF-3360-4BB6-8484-F34A09544BA4}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DivineFoods/MainPage.xaml">
+    <Files>
+      <File FileName="DivineFoods/AppShell.xaml" Line="1" Column="1" />
+      <File FileName="DivineFoods/MainPage.xaml" Line="15" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DivineFoods" expanded="True">
+            <Node name="DivineFoods" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_5_API_33" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.DivineFoods PreferredExecutionTarget="Android.Pixel_5_API_33" />
+</Properties>
