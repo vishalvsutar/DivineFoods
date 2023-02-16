@@ -23,10 +23,6 @@
                    Text="Home"
                    FontAttributes="Bold"
                    FontSize="16"/>
-
-            
-                   
-
             </Grid>
         </Shell.TitleView>
 
