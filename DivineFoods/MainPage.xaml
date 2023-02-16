@@ -2,64 +2,79 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DivineFoods.MainPage"
-             Shell.BackgroundColor="Beige">
+             Shell.BackgroundColor="Beige"
+             Shell.NavBarIsVisible="False">
 
-    <Shell.TitleView>
-        <Grid>
-            <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
+    
+
+    
+        <VerticalStackLayout>
+        <!--Header-->
+            <Grid RowDefinitions="Auto, Auto"
+              ColumnDefinitions="Auto, *, Auto"
+              ColumnSpacing="10"
+              Padding="15,10,15,5"
+              BackgroundColor="Beige">
+
             <Image Grid.Row="0"
                    Grid.Column="0"
                    Source="home.svg"
                    Aspect="AspectFill"
                    HeightRequest="20"
-                   WidthRequest="20"/>
+                   WidthRequest="20"
+                   HorizontalOptions="Start"/>
 
-            <Label Grid.Row="0"
-                   Grid.Column="1"
-                   Text="Home"
+                <HorizontalStackLayout Grid.Row="0"
+                                   Grid.Column="1"
+                                   Spacing="10">
+                     
+
+                   <Label Text="Home"
                    FontAttributes="Bold"
                    FontSize="16"/>
+
+                    <Label Text=">"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       FontSize="19"/>
+                </HorizontalStackLayout>
+
+            <Image Grid.Row="0"
+                   Grid.Column="2"
+                   Source="user.svg"
+                   Aspect="AspectFill"
+                   HeightRequest="20"
+                   WidthRequest="20"/>
+
+                <!--Second Row-->
+
+                <Border Grid.Row="1"
+                      Grid.ColumnSpan="3"
+                      BackgroundColor="LightGray"
+                      StrokeShape="RoundRectangle 10"
+                      Padding="0"
+                      Margin="0,10,0,0">
+
+                <Grid Padding="10,0,30,0">
+
+                    <Entry Placeholder="Search for Dish"
+                           ClearButtonVisibility="WhileEditing"/>
+
+                    <Image Source="search.svg"
+                           Aspect="AspectFill"
+                           HeightRequest="18"
+                           WidthRequest="18"
+                           VerticalOptions="Center"
+                           HorizontalOptions="End"
+                           Opacity="0.5"
+                           Margin="0,0,-20,0"/>
+
+                </Grid>
+                    </Border>
             </Grid>
-        </Shell.TitleView>
-
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
-
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
 
         </VerticalStackLayout>
-    </ScrollView>
+    
 
 </ContentPage>
 
