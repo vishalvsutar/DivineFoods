@@ -5,12 +5,12 @@
              Shell.BackgroundColor="Beige"
              Shell.NavBarIsVisible="False">
 
-    
 
-    
-        <VerticalStackLayout>
+
+
+    <VerticalStackLayout>
         <!--Header-->
-            <Grid RowDefinitions="Auto, Auto"
+        <Grid RowDefinitions="Auto, Auto"
               ColumnDefinitions="Auto, *, Auto"
               ColumnSpacing="10"
               Padding="15,10,15,5"
@@ -22,22 +22,23 @@
                    Aspect="AspectFill"
                    HeightRequest="20"
                    WidthRequest="20"
-                   HorizontalOptions="Start"/>
+                   HorizontalOptions="Start">
+            </Image>
 
-                <HorizontalStackLayout Grid.Row="0"
+            <HorizontalStackLayout Grid.Row="0"
                                    Grid.Column="1"
                                    Spacing="10">
-                     
 
-                   <Label Text="Home"
+
+                <Label Text="Home"
                    FontAttributes="Bold"
                    FontSize="16"/>
 
-                    <Label Text=">"
+                <!--<Label Text=">"
                        FontAttributes="Bold"
                        VerticalOptions="Center"
-                       FontSize="19"/>
-                </HorizontalStackLayout>
+                       FontSize="19"/>-->
+            </HorizontalStackLayout>
 
             <Image Grid.Row="0"
                    Grid.Column="2"
@@ -46,9 +47,9 @@
                    HeightRequest="20"
                    WidthRequest="20"/>
 
-                <!--Second Row-->
+            <!--Second Row-->
 
-                <Border Grid.Row="1"
+            <Border Grid.Row="1"
                       Grid.ColumnSpan="3"
                       BackgroundColor="LightGray"
                       StrokeShape="RoundRectangle 10"
@@ -70,11 +71,8 @@
                            Margin="0,0,-20,0"/>
 
                 </Grid>
-                    </Border>
-            </Grid>
+            </Border>
+        </Grid>
 
-        </VerticalStackLayout>
-    
-
+    </VerticalStackLayout>
 </ContentPage>
-

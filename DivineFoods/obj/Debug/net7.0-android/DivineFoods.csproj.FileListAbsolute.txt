@@ -994,3 +994,10 @@
 /Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/obj/Debug/net7.0-android/stamp/_GenerateJavaStubs.stamp
 /Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/obj/Debug/net7.0-android/stamp/_GeneratePackageManagerJava.stamp
 /Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/obj/Debug/net7.0-android/stamp/_ResolveLibraryProjectImports.stamp
+/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/obj/Debug/net7.0-android/android/assets/CommunityToolkit.Mvvm.dll
+/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/obj/Debug/net7.0-android/android/assets/CommunityToolkit.Mvvm.pdb
+/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/obj/Debug/net7.0-android/android/assets/CommunityToolkit.Maui.Core.dll
+/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/obj/Debug/net7.0-android/android/assets/CommunityToolkit.Maui.dll
+/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/obj/Debug/net7.0-android/android/src/crc64159f3caeb1269279/MauiDrawingView.java
+/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/obj/Debug/net7.0-android/android/src/crc64159f3caeb1269279/MauiPopup.java
+/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/obj/Debug/net7.0-android/android/src/crc648fc34c62be8fbbff/Snackbar_SnackbarCallback.java

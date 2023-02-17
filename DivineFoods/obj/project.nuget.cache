@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MTQCg3IqEjN8fPhhby+8V6fbKoT/kE4Pg5csG3pZM6Xp/1SVSeFEtCkjA+4PlfWvV5au7GUpD4c51/fHoH8nOg==",
+  "dgSpecHash": "GX2We6oPhMoVdISsV44CdRYMOVBd9dZgmZmSLJ3G5avyJZfd01VZLs1X025ey1tb3yJ+2XvBcgTgSq378OWxLw==",
   "success": true,
   "projectFilePath": "/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/DivineFoods.csproj",
   "expectedPackageFiles": [
+    "/Users/vishalsutar/.nuget/packages/communitytoolkit.maui/4.0.0/communitytoolkit.maui.4.0.0.nupkg.sha512",
+    "/Users/vishalsutar/.nuget/packages/communitytoolkit.maui.core/4.0.0/communitytoolkit.maui.core.4.0.0.nupkg.sha512",
+    "/Users/vishalsutar/.nuget/packages/communitytoolkit.mvvm/8.1.0/communitytoolkit.mvvm.8.1.0.nupkg.sha512",
     "/Users/vishalsutar/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/vishalsutar/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/vishalsutar/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
