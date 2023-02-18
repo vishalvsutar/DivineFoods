@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = DivineFoods
-build_property.ProjectDir = /Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/
+build_property.ProjectDir = /Users/navjotsingh/Downloads/DivineFoods/DivineFoods/
 
-[/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/App.xaml]
+[/Users/navjotsingh/Downloads/DivineFoods/DivineFoods/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DivineFoods.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/AppShell.xaml]
+[/Users/navjotsingh/Downloads/DivineFoods/DivineFoods/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DivineFoods.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/MainPage.xaml]
+[/Users/navjotsingh/Downloads/DivineFoods/DivineFoods/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DivineFoods.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/Resources/Styles/Colors.xaml]
+[/Users/navjotsingh/Downloads/DivineFoods/DivineFoods/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DivineFoods.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[/Users/vishalsutar/Projects/MAUI APPS FOLDER/Project/DivineFoods/Resources/Styles/Styles.xaml]
+[/Users/navjotsingh/Downloads/DivineFoods/DivineFoods/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DivineFoods.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
