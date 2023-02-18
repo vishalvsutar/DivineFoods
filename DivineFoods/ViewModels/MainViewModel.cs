@@ -12,6 +12,7 @@ namespace DivineFoods.ViewModels
 		{
 			return new List<Category>
 			{
+				//new Category(1,"","")
 			};
 		}
 

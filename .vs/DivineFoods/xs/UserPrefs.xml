@@ -1,16 +1,29 @@
 ﻿<Properties StartupConfiguration="{BF4F1FAF-3360-4BB6-8484-F34A09544BA4}|Default">
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_5_API_33" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DivineFoods/MainPage.xaml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DivineFoods PreferredExecutionTarget="Android.Pixel_5_API_33" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DivineFoods/Models/Offers.cs">
     <Files>
       <File FileName="DivineFoods/AppShell.xaml" Line="1" Column="1" />
-      <File FileName="DivineFoods/MainPage.xaml" Line="15" Column="35" />
+      <File FileName="DivineFoods/MainPage.xaml" />
+      <File FileName="DivineFoods/MainPage.xaml.cs" />
+      <File FileName="DivineFoods/Models/Category.cs" Line="11" Column="10" />
+      <File FileName="DivineFoods/MauiProgram.cs" />
+      <File FileName="DivineFoods/ViewModels/MainViewModel.cs" />
+      <File FileName="DivineFoods/GlobalUsings.cs" />
+      <File FileName="DivineFoods/Models/Offers.cs" Line="11" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DivineFoods" expanded="True">
             <Node name="DivineFoods" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Offers.cs" selected="True" />
+              </Node>
               <Node name="Resources" expanded="True" />
             </Node>
           </Node>
@@ -18,11 +31,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_5_API_33" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.DivineFoods PreferredExecutionTarget="Android.Pixel_5_API_33" />
 </Properties>
